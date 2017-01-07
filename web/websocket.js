@@ -36,10 +36,9 @@ function addDevice(name, type, description) {
         status: "Off",
         description: description
     };
-    if (socket.readyState == 1) {
-        printDeviceElement(DeviceAction);
-        socket.send(JSON.stringify(DeviceAction));
-    }
+
+    socket.send(JSON.stringify(DeviceAction));
+
 }
 
 function removeDevice(element) {
