@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Jersey-2.2" type="JAX-RS">
+    <properties version="2.2" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/javax.annotation-api-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.inject-2.2.0-b14.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
